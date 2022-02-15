@@ -1,4 +1,4 @@
 #!/bin/bash
 
-date="$(date +"%a, %B %d %l:%M%p"| sed 's/  / /g')"
-echo ${date}
+dt="$(date +"%a, %B %d %l:%M%p"| sed 's/  / /g')"
+echo "${dt}"
