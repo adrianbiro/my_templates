@@ -1,0 +1,8 @@
+import logging
+logging.basicConfig(filename='log_filename.txt', level=logging.DEBUG, format='%(asctime)s - %(levelname)s:  %(message)s')
+
+#logging.debug('This is a log message.')
+#except ZeroDivisionError:
+#	logging.error('Tried to divide by zero')  #ERROR: Tried to divide by zero\nDEBUG: 10 / 0 = None
+#	logging.exception('Tried to divide by zero')  #Traceback
+
