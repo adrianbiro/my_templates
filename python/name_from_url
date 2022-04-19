@@ -1,0 +1,4 @@
+*_, name = url.split('/')
+if not name:  # if url ends with slash name is None
+    *_, name, _ = url.split('/')
+
