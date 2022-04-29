@@ -1,0 +1,9 @@
+
+# function functiona_dofoo(some_arg){...}
+# function functiona_help(){...}
+
+[[ -z "${1-}" ]] && function_help "$0"
+case $1 in
+	dofoo|bar|baz|...|...) function_"$1" "${@:2}" ;;  # if unction take an argument
+	*) function_help "$0" ;;
+esac
