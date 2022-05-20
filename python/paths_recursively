@@ -1,0 +1,6 @@
+import os
+for top_dir, dirs, files in os.walk('.'):
+    for d in dirs:
+        print(os.path.abspath(os.path.join(top_dir, d)))
+    for f in files:
+        print(os.path.abspath(os.path.join(top_dir, f)))
