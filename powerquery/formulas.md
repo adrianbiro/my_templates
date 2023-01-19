@@ -10,4 +10,4 @@ from from any position
 ```
 =SUMPRODUCT(MID(0&A2, LARGE(INDEX(ISNUMBER(--MID(A2, ROW(INDIRECT("1:"&LEN(A2))), 1)) * ROW(INDIRECT("1:"&LEN(A2))), 0), ROW(INDIRECT("1:"&LEN(A2))))+1, 1) * 10^ROW(INDIRECT("1:"&LEN(A2)))/10)
 ```
-
+decimal time to hours `=TEXT(SUM(C2:C56)/24,"[h]:mm:ss")`
