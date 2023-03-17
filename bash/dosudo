@@ -1,0 +1,8 @@
+#https://github.com/bitnami/minideb/blob/master/install-qemu.sh
+do_sudo() {
+  if [[ "0" == "$(id --user)" ]]; then
+    "$@"
+  else
+    sudo "$@"
+  fi
+}
