@@ -1,0 +1,6 @@
+
+curl --silent --fail --show-error "${@}"
+
+#curl --silent --fail --show-error www.postman-echo.com/delete
+#curl: (22) The requested URL returned error: 404
+
